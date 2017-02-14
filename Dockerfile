@@ -1,4 +1,4 @@
-FROM mariadb
+FROM mariadb:10.1
 
 ADD utf8.cnf /etc/mysql/conf.d/
 
